@@ -1,11 +1,11 @@
 package classi;
 
 public class Kebab{
-   Boolean panino;
-   String salsa;
-   Boolean vegetariano;
-   Boolean patatine;
-   Boolean cipolle;
+   private Boolean panino;
+   private String salsa;
+   private Boolean vegetariano;
+   private Boolean patatine;
+   private Boolean cipolle;
 
    public Kebab(Boolean panino, String salsa, Boolean vegetariano, Boolean patatine, Boolean cipolle){
        this.panino=panino;
